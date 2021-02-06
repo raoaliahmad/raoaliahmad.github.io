@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+	--cardBack: #222;
+	--fontc: #ffffff;
+	--background: #888888;
+}
+
+/* html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: var(--background);
+}
+
+#root {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+} */
+
+.card {
+	padding: 10px 20px;
+    margin: 10px 20px;
+    background: var(--cardBack);
+	border-radius: 5px;
+	color: var(--fontc);
+}
+.card a {
+	color: var(--fontc);
+}
