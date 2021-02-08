@@ -15,6 +15,7 @@ function App() {
 					<li>Elixir</li>
 					<li>Css</li>
 					<li>Typescript</li>
+					<li>Python</li>
 				</ul>
 			</div>
 			<div class="card">
